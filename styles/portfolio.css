@@ -1,5 +1,17 @@
 
+
+/* header styles */
+
+.header {
+ background-image: url('../images/developer.png') , url(../images/header_bg.png);
+ background-repeat: no-repeat;
+    background-position: top left, bottom right;
+}
+
+
 /* nav styles */
+
+
 
 /* shared style */
 
@@ -50,4 +62,38 @@ font-size: 20px;
 
 .dark-2 {
  color: #474747;
+}
+
+/* banner styles */
+
+
+
+.banner {
+ display: flex;
+ justify-content: space-between;
+ margin: 0 35px 0 230px ;
+}
+
+.banner-content {
+ max-width: 580px;
+}
+
+.banner-greetings {
+ font-size: 45px;
+ font-weight: 600px;
+}
+
+.banner-title {
+ font-size: 85px;
+ font-weight: bold;
+}
+
+.banner-description {
+ font-size: 18px;
+ font-weight: normal;
+}
+
+.banner-profile-pic {
+ width: 580px;
+ 
 }
